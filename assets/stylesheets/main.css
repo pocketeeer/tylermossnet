@@ -88,3 +88,34 @@ Home
 .hero {
     padding: 22px 80px 66px 80px;
 }
+
+
+/*
+===============================================
+Clear Fix
+===============================================
+ */
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    clear:both;
+    *zoom: 1;
+}
+
+/*
+===============================================
+Primary Logo
+===============================================
+ */
+
+.logo {
+    float: left;
+    border-top :4px solid #648880;
+    padding: 40px 0 22px 0;
+}
