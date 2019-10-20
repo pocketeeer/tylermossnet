@@ -119,3 +119,18 @@ Primary Logo
     border-top :4px solid #648880;
     padding: 40px 0 22px 0;
 }
+
+/*
+===============================================
+Primary Footer
+===============================================
+ */
+
+.primary-footer small {
+    float: left;
+}
+
+.primary-footer {
+    primary-bottom: 44px;
+    primary-top: 44px;
+}
