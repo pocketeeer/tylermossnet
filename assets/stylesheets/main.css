@@ -120,6 +120,7 @@ Primary Logo
     padding: 40px 0 22px 0;
 }
 
+
 /*
 ===============================================
 Primary Footer
@@ -134,3 +135,17 @@ Primary Footer
     primary-bottom: 44px;
     primary-top: 44px;
 }
+
+
+/*
+===============================================
+Store Template
+===============================================
+ */
+
+ .product {
+    float: left;
+    margin: 0 1.5%;
+    width: 29%;
+    border: 1px solid #000000;
+ }
