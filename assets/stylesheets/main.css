@@ -47,6 +47,23 @@ table {
     border-spacing: 0;
 }
 
+
+/*
+===============================================
+Character
+===============================================
+ */
+
+html {
+    background-color: white;
+}
+
+body {
+    margin: 0 20%;
+    background-color: lightblue;
+    width: 960px;
+}
+
 /*
 ===============================================
 Grids
@@ -63,9 +80,8 @@ Grids
 
 .container {
     margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 800px;
+    padding: 0 30px;
+    width: 960px;
 }
 
 /*
@@ -116,7 +132,7 @@ Primary Logo
 
 .logo {
     float: left;
-    border-top :4px solid #648880;
+    border-top: 4px solid #648880;
     padding: 40px 0 22px 0;
 }
 
@@ -143,9 +159,17 @@ Store Template
 ===============================================
  */
 
- .product {
+ .productContainer {
     float: left;
-    margin: 0 1.5%;
-    width: 29%;
-    border: 1px solid #000000;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+ }
+
+ .productCharacter1 {
+    background: grey;
+ }
+
+ .productCharacter2 {
+    background: lightgrey;
  }

@@ -11,32 +11,8 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1036,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "who.html",
-			"settings":
-			{
-				"buffer_size": 968,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "projects.html",
-			"settings":
-			{
-				"buffer_size": 988,
+				"buffer_size": 1388,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "contact.html",
-			"settings":
-			{
-				"buffer_size": 1000,
 				"line_ending": "Windows"
 			}
 		},
@@ -44,7 +20,8 @@
 			"file": "assets/stylesheets/main.css",
 			"settings":
 			{
-				"buffer_size": 2499,
+				"buffer_size": 2720,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -97,6 +74,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/contact.html",
+		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/projects.html",
+		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/who.html",
 		"/C/Users/tjm50/OneDrive/Desktop/HTMLCSS/style-conferences/index.html",
 		"/C/Users/tjm50/OneDrive/Desktop/HTMLCSS/style-conferences/speakers.html",
 		"/C/Users/tjm50/OneDrive/Desktop/HTMLCSS/style-conferences/schedule.html",
@@ -146,15 +126,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1036,
+						"buffer_size": 1388,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								255,
+								255
 							]
 						],
 						"settings":
@@ -172,109 +152,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "who.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 968,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "projects.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 988,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "contact.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1000,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "assets/stylesheets/main.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2499,
+						"buffer_size": 2720,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1786,
+								1786
 							]
 						],
 						"settings":
@@ -284,10 +174,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1144.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
