@@ -80,8 +80,8 @@ Grids
 
 .container {
     margin: 0 auto;
-    padding: 0 30px;
     width: 960px;
+    padding: 0 33px;
 }
 
 /*
@@ -131,12 +131,20 @@ Primary Logo
  */
 
 .logo {
+    padding: 20px;
     float: left;
-    border-top: 4px solid #648880;
-    padding: 40px 0 22px 0;
 }
 
+/*
+===============================================
+Primary Navigation
+===============================================
+ */
 
+.navChar {
+    float: right;
+    padding: 20px;
+}
 /*
 ===============================================
 Primary Footer
@@ -148,8 +156,7 @@ Primary Footer
 }
 
 .primary-footer {
-    primary-bottom: 44px;
-    primary-top: 44px;
+    padding: 22px 0;
 }
 
 
@@ -161,9 +168,9 @@ Store Template
 
  .productContainer {
     float: left;
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
+    width: 275px;
+    height: 275px;
+    margin: 10px;
  }
 
  .productCharacter1 {
@@ -172,4 +179,8 @@ Store Template
 
  .productCharacter2 {
     background: lightgrey;
+ }
+
+ div.product p {
+    text-align: center;
  }
