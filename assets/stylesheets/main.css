@@ -60,7 +60,7 @@ html {
 
 body {
     margin: 0 20%;
-    background-color: #F0F8FF;
+    background-color: lightblue;
     width: 960px;
 }
 
@@ -131,9 +131,11 @@ Primary Logo
  */
 
 .logo {
-    padding: 20px;
     float: left;
+    padding: 20px 33px;
+    margin: 0 10px;
 }
+
 
 /*
 ===============================================
@@ -143,8 +145,14 @@ Primary Navigation
 
 .nav-char {
     float: right;
-    padding: 20px;
+    padding: 20px 33px;
+    margin: 0 10px;
 }
+
+.nav-char a {
+    padding: 0 5px;
+}
+
 /*
 ===============================================
 Primary Footer
@@ -152,11 +160,12 @@ Primary Footer
  */
 
 .primary-footer small {
-    float: left;
+    text-align: center;
 }
 
 .primary-footer {
-    padding: 22px 0;
+    padding: 22px 33px;
+    margin: 0 10px;
 }
 
 
@@ -170,7 +179,7 @@ Store Template
     float: left;
     width: 275px;
     height: 275px;
-    margin: 10px;
+    margin: 0 10px;
     padding: 22px 0;
  }
 
