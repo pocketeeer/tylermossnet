@@ -210,3 +210,29 @@ Store Template
  }
 
 
+/*
+===============================================
+Who? Template
+===============================================
+ */
+
+.bio-img-container {
+    display: block;
+    float: left;
+    width: 275px;
+    height: 400px;
+    padding: 22px 10px;
+}
+
+.bio-img-character {
+    background: lightgrey;
+}
+
+.bio-description-container {
+    display: block;
+    float: right;
+    width: 275px;
+    height: 400px;
+    padding: 22px 10px;
+    background: darkgrey;
+}
