@@ -60,7 +60,7 @@ html {
 
 body {
     margin: 0 20%;
-    background-color: lightblue;
+    background-color: #F0F8FF;
     width: 960px;
 }
 
@@ -132,8 +132,9 @@ Primary Logo
 
 .logo {
     float: left;
-    padding: 20px 33px;
-    margin: 0 10px;
+    width: 200px;
+    height: auto;
+    margin: 27px 43px 0px 43px;
 }
 
 
@@ -145,12 +146,11 @@ Primary Navigation
 
 .nav-char {
     float: right;
-    padding: 20px 33px;
-    margin: 0 10px;
+    margin: 100px 43px 0px 43px;
 }
 
 .nav-char a {
-    padding: 0 5px;
+    margin: 0 5px;
 }
 
 /*
@@ -180,7 +180,7 @@ Store Template
     width: 275px;
     height: 275px;
     margin: 0 10px;
-    padding: 22px 0;
+    padding: 35px 0;
  }
 
  .productCharacter1 {
@@ -201,7 +201,7 @@ Store Template
  }
 
  .product-with-text p {
-    padding: 10px;
+        padding: 10px;
  }
 
  .product-with-text img {
