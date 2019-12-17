@@ -236,3 +236,21 @@ Who? Template
     padding: 22px 10px;
     background: darkgrey;
 }
+
+/*
+===============================================
+Lockscreen
+===============================================
+ */
+
+.locked-center {
+    vertical-align: top;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 20%;
+}
