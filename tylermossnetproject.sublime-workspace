@@ -8,44 +8,27 @@
 	"buffers":
 	[
 		{
-			"file": "contact.html",
+			"contents": " ",
 			"settings":
 			{
-				"buffer_size": 1007,
+				"buffer_size": 1,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "projects.html",
+			"file": "html5up-phantom/index.html",
 			"settings":
 			{
-				"buffer_size": 995,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 2656,
+				"buffer_size": 6954,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "who.html",
+			"file": "html5up-phantom/tylerexe.html",
 			"settings":
 			{
-				"buffer_size": 1195,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/stylesheets/main.css",
-			"settings":
-			{
-				"buffer_size": 3952,
+				"buffer_size": 4956,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -99,9 +82,12 @@
 	},
 	"file_history":
 	[
-		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/contact.html",
-		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/projects.html",
+		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/html5up-phantom/assets/css/main.css",
+		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/index.html",
 		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/who.html",
+		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/assets/stylesheets/main.css",
+		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/projects.html",
+		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/contact.html",
 		"/C/Users/tjm50/OneDrive/Desktop/HTMLCSS/style-conferences/index.html",
 		"/C/Users/tjm50/OneDrive/Desktop/HTMLCSS/style-conferences/speakers.html",
 		"/C/Users/tjm50/OneDrive/Desktop/HTMLCSS/style-conferences/schedule.html",
@@ -111,7 +97,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 54.2857142857
 	},
 	"find_in_files":
 	{
@@ -142,31 +128,29 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "contact.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1007,
+						"buffer_size": 1,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1,
+								1
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -177,122 +161,60 @@
 				},
 				{
 					"buffer": 1,
-					"file": "projects.html",
+					"file": "html5up-phantom/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 995,
+						"buffer_size": 6954,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1492,
+								1492
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 872.857142857,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "index.html",
+					"file": "html5up-phantom/tylerexe.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2656,
+						"buffer_size": 4956,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								192,
+								192
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 612.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "who.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1195,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								983,
-								983
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 9.14285714286,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "assets/stylesheets/main.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3952,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1105,
-								1105
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 553.142857143,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -300,7 +222,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -337,7 +259,7 @@
 	"project": "tylermossnetproject.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":
