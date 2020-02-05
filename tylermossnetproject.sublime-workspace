@@ -8,16 +8,7 @@
 	"buffers":
 	[
 		{
-			"file": "html5up-phantom/tylerexe.html",
-			"settings":
-			{
-				"buffer_size": 5042,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "html5up-phantom/index.html",
+			"file": "index.html",
 			"settings":
 			{
 				"buffer_size": 7096,
@@ -74,8 +65,10 @@
 	},
 	"file_history":
 	[
-		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/index.html",
+		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/html5up-phantom/phantomindex.html",
+		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/html5up-phantom/tylerexe.html",
 		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/html5up-phantom/index.html",
+		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/index.html",
 		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/indexold.html",
 		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/html5up-phantom/assets/css/main.css",
 		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/who.html",
@@ -122,41 +115,12 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "html5up-phantom/tylerexe.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5042,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1447,
-								1447
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 726.285714286,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "html5up-phantom/index.html",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
@@ -167,8 +131,8 @@
 						"selection":
 						[
 							[
-								431,
-								431
+								1919,
+								1919
 							]
 						],
 						"settings":
@@ -177,7 +141,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 980.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
