@@ -8,19 +8,19 @@
 	"buffers":
 	[
 		{
-			"contents": " ",
+			"file": "html5up-phantom/index.html",
 			"settings":
 			{
-				"buffer_size": 1,
+				"buffer_size": 7095,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "html5up-phantom/index.html",
+			"file": "indexold.html",
 			"settings":
 			{
-				"buffer_size": 6954,
-				"encoding": "UTF-8",
+				"buffer_size": 2646,
 				"line_ending": "Windows"
 			}
 		},
@@ -28,7 +28,7 @@
 			"file": "html5up-phantom/tylerexe.html",
 			"settings":
 			{
-				"buffer_size": 4956,
+				"buffer_size": 5042,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -128,52 +128,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1,
-								1
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "html5up-phantom/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6954,
+						"buffer_size": 7095,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1492,
-								1492
+								376,
+								376
 							]
 						],
 						"settings":
@@ -182,10 +154,40 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 872.857142857,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "indexold.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2646,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233,
+								170
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -194,15 +196,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4956,
+						"buffer_size": 5042,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								192,
-								192
+								1447,
+								1447
 							]
 						],
 						"settings":
@@ -211,10 +213,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 9.14285714286,
+						"translation.y": 679.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
