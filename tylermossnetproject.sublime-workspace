@@ -8,27 +8,19 @@
 	"buffers":
 	[
 		{
-			"file": "html5up-phantom/index.html",
+			"file": "html5up-phantom/tylerexe.html",
 			"settings":
 			{
-				"buffer_size": 7095,
+				"buffer_size": 5042,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "indexold.html",
+			"file": "html5up-phantom/index.html",
 			"settings":
 			{
-				"buffer_size": 2646,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "html5up-phantom/tylerexe.html",
-			"settings":
-			{
-				"buffer_size": 5042,
+				"buffer_size": 7096,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -82,8 +74,10 @@
 	},
 	"file_history":
 	[
-		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/html5up-phantom/assets/css/main.css",
 		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/index.html",
+		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/html5up-phantom/index.html",
+		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/indexold.html",
+		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/html5up-phantom/assets/css/main.css",
 		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/who.html",
 		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/assets/stylesheets/main.css",
 		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/projects.html",
@@ -128,70 +122,11 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "html5up-phantom/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7095,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								376,
-								376
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "indexold.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2646,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								233,
-								170
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "html5up-phantom/tylerexe.html",
 					"semi_transient": false,
 					"settings":
@@ -213,10 +148,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 679.0,
+						"translation.y": 726.285714286,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "html5up-phantom/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7096,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								431,
+								431
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
