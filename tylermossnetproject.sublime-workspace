@@ -11,7 +11,16 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7096,
+				"buffer_size": 7090,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tylerexe.html",
+			"settings":
+			{
+				"buffer_size": 4654,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -124,15 +133,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7096,
+						"buffer_size": 7090,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1919,
-								1919
+								2160,
+								2160
 							]
 						],
 						"settings":
@@ -141,10 +150,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 980.0,
+						"translation.y": 2403.14285714,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "tylerexe.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2369,
+								2369
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1356.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
