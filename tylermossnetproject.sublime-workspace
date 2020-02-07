@@ -11,7 +11,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7090,
+				"buffer_size": 7308,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -20,7 +20,7 @@
 			"file": "tylerexe.html",
 			"settings":
 			{
-				"buffer_size": 4654,
+				"buffer_size": 8280,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -124,7 +124,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -133,15 +133,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7090,
+						"buffer_size": 7308,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2160,
-								2160
+								1182,
+								1033
 							]
 						],
 						"settings":
@@ -150,10 +150,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2403.14285714,
+						"translation.y": 366.285714286,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -162,15 +162,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4654,
+						"buffer_size": 8280,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2369,
-								2369
+								5611,
+								5611
 							]
 						],
 						"settings":
@@ -179,10 +179,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1356.0,
+						"translation.y": 1309.14285714,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
