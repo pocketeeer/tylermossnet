@@ -11,7 +11,16 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7308,
+				"buffer_size": 7311,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "petboebot.html",
+			"settings":
+			{
+				"buffer_size": 5065,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -20,7 +29,7 @@
 			"file": "tylerexe.html",
 			"settings":
 			{
-				"buffer_size": 8280,
+				"buffer_size": 8694,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -133,15 +142,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7308,
+						"buffer_size": 7311,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1182,
-								1033
+								2692,
+								2692
 							]
 						],
 						"settings":
@@ -150,27 +159,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 366.285714286,
+						"translation.y": 1129.14285714,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "tylerexe.html",
+					"file": "petboebot.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8280,
+						"buffer_size": 5065,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5611,
-								5611
+								1404,
+								1404
 							]
 						],
 						"settings":
@@ -179,10 +188,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1309.14285714,
+						"translation.y": 464.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "tylerexe.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3666,
+								3666
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 922.285714286,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
