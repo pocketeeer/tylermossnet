@@ -11,7 +11,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7311,
+				"buffer_size": 7509,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -20,16 +20,16 @@
 			"file": "petboebot.html",
 			"settings":
 			{
-				"buffer_size": 5065,
+				"buffer_size": 5109,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "tylerexe.html",
+			"file": "about.html",
 			"settings":
 			{
-				"buffer_size": 8694,
+				"buffer_size": 4105,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -83,6 +83,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/thewritingmouse.html",
+		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/tylerexe.html",
 		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/html5up-phantom/phantomindex.html",
 		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/html5up-phantom/tylerexe.html",
 		"/C/Users/tjm50/OneDrive/Desktop/tylermossnet/html5up-phantom/index.html",
@@ -102,7 +104,7 @@
 	],
 	"find":
 	{
-		"height": 54.2857142857
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -116,6 +118,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"/\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -133,7 +136,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -142,15 +145,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7311,
+						"buffer_size": 7509,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2692,
-								2692
+								1587,
+								1587
 							]
 						],
 						"settings":
@@ -159,7 +162,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1129.14285714,
+						"translation.y": 253.142857143,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -171,15 +174,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5065,
+						"buffer_size": 5109,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1404,
-								1404
+								1075,
+								1075
 							]
 						],
 						"settings":
@@ -188,27 +191,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 464.0,
+						"translation.y": 394.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "tylerexe.html",
+					"file": "about.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8694,
+						"buffer_size": 4105,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3666,
-								3666
+								1379,
+								1379
 							]
 						],
 						"settings":
@@ -217,10 +220,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 922.285714286,
+						"translation.y": 710.285714286,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
