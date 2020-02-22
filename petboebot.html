@@ -69,10 +69,124 @@
 									<li>2x IR Receivers</li>
 									<li>1x Soft Potentiometer</li>
 									<li>A whole bunch of wires</li>
-									<li>Many 10k, 1k, and 220 ohm resistors</li>
+									<li>Many 10k, 1k, and 220 ohm resistors<br><br><br></li>
 								</ul>
 							</div>
-							<p>More info on this project coming soon!</p>
+
+							<div>
+								<h1>Features</h1>
+
+								<div>
+		                        <span class='image left'>
+		                        	<img src='images/boeface.png'>
+		                        </span>
+		                        <p>The face of your pet is the screen located on the front. It will show your pet’s emotions through it’s different states (casual, playtime, and sleeptime). Use this to know how your pet is feeling!<br><br><br><br><br><br><br></p>
+		                    	</div>
+
+		                    	<div>
+		                        <span class='image left'>
+		                        	<img src='images/boeheart.png'>
+		                        </span>
+		                        <p>The heart of your pet is located just to the left of its face. Keep an eye on this to ensure that your pet is alive and well - incase it wasn’t already obvious!<br><br><br><br><br><br><br></p>
+		                    	</div>
+
+		                    	<div>
+		                        <span class='image left'>
+		                        	<img src='images/boemouth.png'>
+		                        </span>
+		                        <p>The mouth of your pet allows your pet to speak to you! Pay close attention to your bot so you know when they wake up or go to sleep. Or maybe even when they want to play. <br><br><br><br><br><br><br></p>
+		                    	</div>
+
+		                    	<div>
+		                        <span class='image left'>
+		                        	<img src='images/boeeyes.png'>
+		                        </span>
+		                        <p>The eyes of your pet helps your pet to find a nice, quiet, dark place to sleep when they get tired.<br><br><br><br><br><br><br><br></p>
+		                    	</div>
+
+		                    	<div>
+		                        <span class='image left'>
+		                        	<img src='images/boehands.png'>
+		                        </span>
+		                        <p>The hands of your pet make it so your pet doesn’t run into anything in front of them. Sometimes they’ll get distracted and bump into something, but for the most part, they do pretty well for being a robot.<br><br><br><br><br><br><br></p>
+		                    	</div>
+
+		                    	<div>
+		                        <span class='image left'>
+		                        	<img src='images/boehead.png'>
+		                        </span>
+		                        <p>The head of your bot is where you give all those scratches and head rubs. Try petting here when your bot is having fun during playtime, or when they are sleeping, as they may not pay attention to you when they are roaming around and exploring their surroundings.<br><br><br><br><br><br><br><br></p>
+		                    	</div>
+
+							</div>
+
+							<div>
+								<h1>How does it work?</h1>
+								<p>Your new PET BOE BOT is designed to keep you company around the house. The bot has several convenient features, including multiple sensors to gather information about its surroundings, and ways of showing the emotion or state of the pet itself. Here’s a list of all it’s features:
+									<li>Visual face to show emotions using a Nokia 5110 screen</li>
+									<li>2 LEDs to show the heartbeat of your pet</li>
+									<li>Audio feedback through a piezo buzzer</li>
+									<li>2 light sensors in order to find some shade to sleep</li>
+									<li>2 pairs of infrared LEDs and receivers to detect objects in front of your pet</li>
+									<li>A soft potentiometer so you can pet the bot when he’s a good boy/girl</li>
+								</p>
+								<h3>HARDWARE</h3>
+								<p>The hardware of the bot consists of all of the parts listed above. All of the parts fit onto the mini breadboard attached to the BOE bot, and a breadboard that was put onto the front of the bot for more space. All wires are colour coded to fit the part they are assigned to (red = power, black = ground, green = LED/piezo, blue = Nokia screen, yellow = IR sensors, white = soft potentiometer). Here are some closer pictures of the wiring:</p>
+
+								<section class='box alt row gtr-uniform'>
+								<div class="col-4">
+									<span class="image fit">
+											<img src="images/boe1.png" alt=""/>
+									</span>
+								</div>
+
+								<div class="col-4">
+									<span class="image fit">
+											<img src="images/boe2.png" alt=""/>
+									</span>
+								</div>
+
+								<div class="col-4">
+									<span class="image fit">
+											<img src="images/boe3.png" alt=""/>
+									</span>
+								</div>
+								</section>
+
+								<h3><br><br>SOFTWARE</h3>
+								<p>The code that the bot operates on has 3 main “phases. The first phase is roaming mode, where the bot roams around and tries not to bump into its surroundings. The second phase is playtime, where you can pet your bot! The third and final phase is sleep time, for when your bot gets tired. They will try to find a nice dark place to sleep, and then sleep for a bit.</p>
+
+								<h5>Bootup</h5>
+								<p><strong>The bootup sequence</strong> ensures that all the libraries (servo, adafruit for screen) are in place, that the Nokia 5110 screen, leds, IR LEDs and receivers and the servos are assigned the correct pins, as well as defining the jingle arrays and the int variables. The bootup function turns on the screen and shows the starting info.</p>
+
+								<span class="image">
+										<img src="images/boecode1.png" alt=""/>
+								</span>
+								<span class="image ">
+										<img src="images/boecode2.png" alt=""/>
+								</span>
+
+								<h5><br><br><br><br>Roaming phase</h5>
+								<p>The main idea of the <strong>roaming phase</strong> is to show the normal paced heartbeat, as well as the roaming “faces”. It also checks the IR sensors for anything in front of the bot, and if there is anything, it will make an attempt to get out of the way. The roaming phase is located inside of the main loop function, and doubles up on the emote/IR check in the same loop function in order for the faces to change properly. This roaming phase will go for 4 loops.</p>
+
+								<span class="image">
+										<img src="images/boecode3.png" alt=""/>
+								</span>
+
+								<h5><br><br><br><br>Playtime phase</h5>
+								<p>Once the roaming phase has gone 4 times, it will enter the <strong>playtime mode</strong>. After a little jingle, the main playtime code will loop 5 times. During these loops, the soft potentiometer will be checked to see if it is being interacted with. If it is, the bot will acknowledge it with a sound and a dance. If not, the bot will do a small side to side dance. After 5 loops of playtime, the bot will return to the roaming phase for another 3 loops.</p>
+
+								<span class="image">
+										<img src="images/boecode4.png" alt=""/>
+								</span>
+
+								<h5><br><br><br><br>Sleeping phase</h5>
+								<p>Once the state value is at 8, the bot enters <strong>sleep mode</strong>. The bot will change faces and start using it’s photoresistors to find a shady place to sleep at. After several seconds, the bot will “power down” with a jingle and stop moving. The bot will then sleep for 10 seconds until it wakes up, and the whole process starts over again (state value is set to 0 at the end).</p>
+
+								<span class="image">
+										<img src="images/boecode5.png" alt=""/>
+								</span>
+							</div>
 						</div>
 					</div>
 
