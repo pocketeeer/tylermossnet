@@ -135,23 +135,23 @@
 								<p>The hardware of the bot consists of all of the parts listed above. All of the parts fit onto the mini breadboard attached to the BOE bot, and a breadboard that was put onto the front of the bot for more space. All wires are colour coded to fit the part they are assigned to (red = power, black = ground, green = LED/piezo, blue = Nokia screen, yellow = IR sensors, white = soft potentiometer). Here are some closer pictures of the wiring:</p>
 
 								<section class='box alt row gtr-uniform'>
-								<div class="col-4">
-									<span class="image fit">
-											<img src="images/boe1.png" alt=""/>
-									</span>
-								</div>
+									<div class="col-4">
+										<span class="image fit">
+												<img src="images/boe1.png" alt=""/>
+										</span>
+									</div>
 
-								<div class="col-4">
-									<span class="image fit">
-											<img src="images/boe2.png" alt=""/>
-									</span>
-								</div>
+									<div class="col-4">
+										<span class="image fit">
+												<img src="images/boe2.png" alt=""/>
+										</span>
+									</div>
 
-								<div class="col-4">
-									<span class="image fit">
-											<img src="images/boe3.png" alt=""/>
-									</span>
-								</div>
+									<div class="col-4">
+										<span class="image fit">
+												<img src="images/boe3.png" alt=""/>
+										</span>
+									</div>
 								</section>
 
 								<h3><br><br>SOFTWARE</h3>
@@ -160,17 +160,15 @@
 								<h5>Bootup</h5>
 								<p><strong>The bootup sequence</strong> ensures that all the libraries (servo, adafruit for screen) are in place, that the Nokia 5110 screen, leds, IR LEDs and receivers and the servos are assigned the correct pins, as well as defining the jingle arrays and the int variables. The bootup function turns on the screen and shows the starting info.</p>
 
-								<span class="image fit">
-										<img src="images/boecode1.png" alt=""/>
-								</span>
-								<span class="image fit">
-										<img src="images/boecode2.png" alt=""/>
+
+								<span class="image">
+									<img src="images/boecode2.png" alt=""/>
 								</span>
 
 								<h5><br><br><br><br>Roaming phase</h5>
 								<p>The main idea of the <strong>roaming phase</strong> is to show the normal paced heartbeat, as well as the roaming “faces”. It also checks the IR sensors for anything in front of the bot, and if there is anything, it will make an attempt to get out of the way. The roaming phase is located inside of the main loop function, and doubles up on the emote/IR check in the same loop function in order for the faces to change properly. This roaming phase will go for 4 loops.</p>
 
-								<span class="image fit">
+								<span class="image">
 										<img src="images/boecode3.png" alt=""/>
 								</span>
 
