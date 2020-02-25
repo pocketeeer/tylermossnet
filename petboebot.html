@@ -155,10 +155,10 @@
 								</section>
 
 								<h3><br><br>SOFTWARE</h3>
-								<p>The code that the bot operates on has 3 main “phases. The first phase is roaming mode, where the bot roams around and tries not to bump into its surroundings. The second phase is playtime, where you can pet your bot! The third and final phase is sleep time, for when your bot gets tired. They will try to find a nice dark place to sleep, and then sleep for a bit.</p>
+								<p>The code that the bot operates on has 3 main “phases". The first phase is roaming mode, where the bot roams around and tries not to bump into its surroundings. The second phase is playtime, where you can pet your bot! The third and final phase is sleep time, for when your bot gets tired. They will try to find a nice dark place to sleep, and then rest for a bit.</p>
 
 								<h5>Bootup</h5>
-								<p><strong>The bootup sequence</strong> ensures that all the libraries (servo, adafruit for screen) are in place, that the Nokia 5110 screen, leds, IR LEDs and receivers and the servos are assigned the correct pins, as well as defining the jingle arrays and the int variables. The bootup function turns on the screen and shows the starting info.</p>
+								<p><strong>The bootup sequence</strong> ensures that all the libraries (servo, adafruit for screen) are in place, that the Nokia 5110 screen, LEDs, IR LEDs and receivers, and the servos are assigned to the correct pins, as well as defining the jingle arrays and the int variables. The bootup function turns on the screen and shows the starting info.</p>
 
 
 								<span class="image">
@@ -180,7 +180,7 @@
 								</span>
 
 								<h5><br><br><br><br>Sleeping phase</h5>
-								<p>Once the state value is at 8, the bot enters <strong>sleep mode</strong>. The bot will change faces and start using it’s photoresistors to find a shady place to sleep at. After several seconds, the bot will “power down” with a jingle and stop moving. The bot will then sleep for 10 seconds until it wakes up, and the whole process starts over again (state value is set to 0 at the end).</p>
+								<p>Once the state value is at 8, the bot enters <strong>sleep mode</strong>. The bot will change faces and start using it’s photoresistors to find a dark place to sleep at. After several seconds, the bot will “power down” with a jingle and stop moving. The bot will then sleep for 10 seconds until it wakes up, and the whole process starts over again (state value is set to 0 at the end).</p>
 
 								<span class="image">
 									<img src="images/boecode5.png" alt=""/>
